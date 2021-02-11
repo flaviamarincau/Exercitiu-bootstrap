@@ -1,0 +1,44 @@
+#banner{
+    width:100%;
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:30%;
+    border-radius: 50%;
+}
+.no-repeat{
+    width:100%;
+}
+.spatiu-liber{
+    height:10vh;
+}
+.text{
+    width:200px;
+}
+p{
+    color:aliceblue;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: larger;
+
+
+}
+.container{
+    background-color: rgb(151, 150, 243);
+    border-radius: 10%;
+    border: 5px solid white;
+}
+body{
+    background-color: rgb(223, 250, 213);
+}
+.stick{
+    position: relative;
+    width:100%;
+    transition-property: width;
+    transition-duration:0.5s;
+}
+.stick:hover{
+    width:200%;
+    z-index: 1000;
+}
